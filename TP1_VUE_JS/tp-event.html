@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Manipulation de vue</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .counter {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn-increment {
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-decrement {
+            background-color: #dc3545;
+            color: white;
+        }
+		.error-message {
+            color: red;
+            font-weight: bold;
+            margin-top: 10px;
+            display: none;
+        }
+		input {
+            font-size: 18px;
+            padding: 8px;
+            width: 250px;
+        }
+    </style>
+
+<div id="monapp">
+	<button @click="togglebutton">{{title}}</button>
+	<button @click="incrementer" class="btn-increment">++</button>
+	<span class="counter">{{compteur}}</span>
+	<button @click="decrementer" class="btn-decrement">--</button>
+	<h2>Entrer une phrase sans espace</h2>
+	<input v-model="userinput" @input="checkinput" placeholder="Tapez ici...">
+	<p v-if="error" class="Error-message">Aucun espace n'est toléré</p>
+</div>
+
+
+<script>
+	const appli = {
+		data () {
+				return {
+					title:"Cliquez-moi",
+					is_clicked:false,
+					compteur:0,
+					userinput:'',
+					error:false
+				}
+			},
+		methods:{
+			togglebutton(){
+				this.is_clicked=!this.is_clicked,
+				this.title= this.is_clicked ? "Cliqué" : "Cliquez-moi"
+			},
+			incrementer(){
+				this.compteur++;
+			},
+			decrementer(){
+				this.compteur--;
+			},
+			checkinput(){
+				if(this.userinput.includes(' ')){
+					this.error=true;
+				}
+				else{
+					this.error=false;
+				}
+			}
+		}
+	};
+	
+Vue.createApp(appli).mount("#monapp");
+</script>
+
+</body>
+</html>

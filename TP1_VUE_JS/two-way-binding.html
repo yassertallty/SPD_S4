@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Manipulation de vue</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+	<style>
+		.inputs{
+			display: flex;
+			flex-direction: column;
+		}
+	</style>
+
+<div id="monapp">
+	<ul>
+		<li>Couleur de la police:</li>
+	</ul>
+	<div class="inputs">
+		<label><input type="radio" value="red" v-model="selectedcolor" name="check">Rouge</label>
+		<label><input type="radio"  value="blue" v-model="selectedcolor" name="check">Bleu</label>
+	</div>
+	<ul>
+		<li>Afficher/cacher le paragraphe?</li>
+		<input type="checkbox" v-model="show">
+	</ul>
+	<p v-if="show" :style="{color:selectedcolor}">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam pariatur mollitia et, inventore delectus. Doloribus laudantium maiores at necessit ipsum distinctio?</p>
+</div>
+
+<script>
+	const appli = {
+		data () {
+				return {
+					show:false,
+					selectedcolor:[]
+				}
+			}
+	};
+	
+Vue.createApp(appli).mount("#monapp");
+</script>
+
+</body>
+</html>
