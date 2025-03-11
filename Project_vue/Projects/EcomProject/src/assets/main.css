@@ -1,0 +1,75 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa;
+  color: #2d3748;
+  line-height: 1.5;
+}
+
+/* Prevent fixed header overlap with content */
+html {
+  scroll-padding-top: 80px;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #3182ce;
+  outline-offset: 2px;
+}
+
+/* Global button styles */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/* Smooth transitions for interactive elements */
+a, button, input, select {
+  transition: all 0.2s ease;
+}
+
+/* Remove arrows from number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Prevent text selection on interface elements */
+.no-select {
+  user-select: none;
+}
+
+/* Responsive container */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 2rem;
+  }
+}

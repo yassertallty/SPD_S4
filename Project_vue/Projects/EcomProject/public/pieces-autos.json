@@ -1,0 +1,162 @@
+[
+{
+    "id": 1,
+    "nom": "Brake Pads - Premium",
+    "prix": 49.99,
+    "categorie": "Brakes",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1600497900863-2fed1a26434d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 2,
+    "nom": "Oil Filter - Standard",
+    "prix": 12.95,
+    "categorie": "Filters",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 3,
+    "nom": "Air Filter - High Performance",
+    "prix": 24.50,
+    "categorie": "Filters",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1599256871679-6cd739d72879?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 4,
+    "nom": "Spark Plugs Set (4)",
+    "prix": 32.99,
+    "categorie": "Ignition",
+    "Disponible": false,
+    "Image": "https://images.unsplash.com/photo-1616190422392-44a018af5a94?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 5,
+    "nom": "Headlight Assembly - Left",
+    "prix": 149.99,
+    "categorie": "Lighting",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1600661653561-629509413de0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 6,
+    "nom": "Headlight Assembly - Right",
+    "prix": 149.99,
+    "categorie": "Lighting",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1600661653088-aa5c6ae3c8cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 7,
+    "nom": "Battery - Heavy Duty",
+    "prix": 129.95,
+    "categorie": "Electrical",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1619641464028-f2075101d5e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 8,
+    "nom": "Alternator - Remanufactured",
+    "prix": 189.99,
+    "categorie": "Electrical",
+    "Disponible": false,
+    "Image": "https://images.unsplash.com/photo-1601752943749-7dd8d89f407a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 9,
+    "nom": "Shock Absorber - Front",
+    "prix": 78.50,
+    "categorie": "Suspension",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1588769359834-a3d9d9d5e4ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 10,
+    "nom": "Coil Springs - Performance",
+    "prix": 124.95,
+    "categorie": "Suspension",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1545966386-6721a4354596?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 11,
+    "nom": "Radiator - Aluminum",
+    "prix": 159.99,
+    "categorie": "Cooling",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1619976316083-5a671369d5f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 12,
+    "nom": "Thermostat",
+    "prix": 19.95,
+    "categorie": "Cooling",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1621088182935-1ae2f592e5c8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 13,
+    "nom": "Timing Belt Kit",
+    "prix": 89.99,
+    "categorie": "Engine",
+    "Disponible": false,
+    "Image": "https://images.unsplash.com/photo-1486262322291-6f4dbcd69e10?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 14,
+    "nom": "Oxygen Sensor",
+    "prix": 45.50,
+    "categorie": "Exhaust",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1619976344075-92c3939ef764?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 15,
+    "nom": "Catalytic Converter",
+    "prix": 299.99,
+    "categorie": "Exhaust",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1603557501248-c7d1e83d93f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 16,
+    "nom": "Fuel Pump Assembly",
+    "prix": 119.95,
+    "categorie": "Fuel System",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1619641463937-2e84d02af98d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 17,
+    "nom": "Transmission Fluid - Premium",
+    "prix": 24.99,
+    "categorie": "Fluids",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1583624738037-2dff9ff9cae9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 18,
+    "nom": "Motor Oil - Synthetic 5W-30",
+    "prix": 39.95,
+    "categorie": "Fluids",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1601752872173-5ab7c12a692a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 19,
+    "nom": "Windshield Wipers - Premium",
+    "prix": 29.99,
+    "categorie": "Exterior",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1567093323974-c35b7fcff7d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+},
+{
+    "id": 20,
+    "nom": "Floor Mats - All Weather",
+    "prix": 59.95,
+    "categorie": "Interior",
+    "Disponible": true,
+    "Image": "https://images.unsplash.com/photo-1601752874070-fefb5c870bfb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+}
+]
