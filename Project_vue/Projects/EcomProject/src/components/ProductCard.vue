@@ -19,7 +19,6 @@ function addToCart() {
   <div class="product-card" :class="{ 'unavailable': !piece.Disponible }">
     <div class="product-badge" v-if="!piece.Disponible">Unavailable</div>
     <div class="product-badge in-stock" v-else>In Stock</div>
-    
     <div class="product-image-container">
       <img 
         :src="piece.Image || `/api/placeholder/400/320`" 

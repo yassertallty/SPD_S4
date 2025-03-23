@@ -9,7 +9,7 @@ import SortBar from './components/SortBar.vue';
 const pieces = ref([]);
 const filteredPieces = ref([]);
 const cart = ref([]);
-const searchQuery = ref('');
+const searchQuery = ref ('');
 const sortOrder = ref('price-asc');
 const selectedFilters = ref({ 
   category: '', 
