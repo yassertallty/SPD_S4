@@ -1,0 +1,1 @@
+export { default } from "file:///Users/nizar/Desktop/spotify-clone-mvp/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

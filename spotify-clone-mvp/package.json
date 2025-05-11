@@ -1,0 +1,19 @@
+{
+  "name": "spotify-clone-mvp",
+  "version": "1.0.0",
+  "description": "Minimal Spotify clone MVP",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nuxt": "^3.17.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.11.0",
+    "axios": "^1.9.0",
+    "pinia": "^3.0.2"
+  }
+}
